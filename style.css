@@ -15,7 +15,7 @@
     border-left: 1.5px solid gray;
 }
 .navbar{
-    background:teal;
+    background:rgb(4, 98, 98);
 }
 .container{
     margin-left: -15px;
@@ -29,10 +29,19 @@ h1{
 }
 .left-side .btn{
     margin-left: 30px;
+    background: blue;
+    color: white;
+    margin-right: 10px;
+    padding: 7px;
 
+}
+.left-side .btn:hover{
+    padding: 9px;
 }
 .left-side h2{
     margin-left: 25px;
+    color: rgb(64, 62, 62);
+    font-size: 2em;
 }
 .left-side p{
     margin-left: 25px;
@@ -48,15 +57,20 @@ b{
     font-size: 25px;
 }
 .right-side .form-control{
-    background: rgb(238, 232, 232);
+    background: rgb(246, 240, 240);
 }
-/* .vl {
-    border-left: 2px solid black;
-    height: 500px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-    top: 0; */
-  /* } */
+
+  .right-side .btn{
+    /* margin-left: 20em; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1vh;
+    margin-top: 1em;
+    justify-content: flex-end;
+  }
+  b{
+    color: rgb(64, 62, 62);
+  }
 
 
